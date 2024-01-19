@@ -1,5 +1,5 @@
-var http = requires('http');
-var fs = requires('fs');
+var http = require('http');
+var fs = require('fs');
 
 const PORT =8080;
 fs.readFile('.index.html',function(error,html){
